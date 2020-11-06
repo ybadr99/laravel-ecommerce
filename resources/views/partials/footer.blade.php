@@ -1,12 +1,11 @@
 <footer>
     <div class="footer-content container">
-        <div class="made-with">Made with <i class="fa fa-heart heart"></i> by Andre Madarang</div>
+        <div class="made-with">Made  By Yousef badr</div>
         <ul>
-            <li>Follow Me: </li>
-            <li><a href="https://andremadarang.com"><i class="fa fa-globe"></i></a></li>
-            <li><a href="https://www.youtube.com/drehimself"><i class="fa fa-youtube"></i></a></li>
-            <li><a href="https://github.com/drehimself"><i class="fa fa-github"></i></a></li>
-            <li><a href="https://twitter.com/drehimself"><i class="fa fa-twitter"></i></a></li>
+            <li>Contact Me: </li>
+            <li><a href="https://yousefbadr909@gmail.com"><i class="fa fa-envelope-square"></i></a></li>
+            <li><a href="https://github.com/ybadr99"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/yousef-mohamed-40511814b/"><i class="fa fa-linkedin"></i></a></li>
         </ul>
     </div> <!-- end footer-content -->
 </footer>

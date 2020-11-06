@@ -4,9 +4,13 @@
         @if (! request()->is('checkout'))
         <ul>
         <li><a href="{{route('shop')}}">Shop</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="/about">About</a></li>
             <li><a href="#">Blog</a></li>
-            <li><a href="#">Cart <span class="cart-count"><span>3</span></span></a></li>
+        <li><a href="/cart">Cart <span class="cart-count">
+            @if (Cart::count() > 0)
+                <span>{{Cart::count()}}</span>
+            @endif
+        </span></a></li>
         </ul>
         @endif
     </div> <!-- end top-nav -->
