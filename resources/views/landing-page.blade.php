@@ -19,12 +19,13 @@
     <body>
         <header class="with-background">
             <div class="top-nav container">
-                <div class="logo">Laravel Ecommerce</div>
+                <div class="logo" ><a href="/">Laravel Ecommerce</a></div>
                 <ul>
                 <li><a href="{{route('shop')}}">Shop</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Blog</a></li>
-                <li><a href="{{route('cart.index')}}">Cart
+                <li><a href="{{route('cart.index')}}">Cart <span class="cart-count">
+                    
                     @if (Cart::count() > 0)
                     <span>{{Cart::count()}}</span>
                 @endif

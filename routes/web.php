@@ -22,5 +22,8 @@ Route::get('/empty', function(){
     Cart::instance('savelater')->destroy();
 });
 
+Route::get('/checkout','CheckoutController@index')->name('checkout.index');
+Route::post('/checkout','CheckoutController@store')->name('checkout.store');
+
 // Route::view('/test', 'test');
 Route::view('/thankyou', 'thankyou');
